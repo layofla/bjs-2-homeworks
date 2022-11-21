@@ -62,13 +62,13 @@ class DetectiveBook extends Book {
 
 //Задание №2
 
-class library {
-    construcnor (name) {
+class Library {
+    construcnor (name, books) {
         this.name = name;
         this.books = [];
     }
     addBook(book) {
-        if (this.book.state > 30) {
+        if (this.state > 30) {
             return this.books.push(book);
         }
     }
