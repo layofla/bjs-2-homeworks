@@ -62,14 +62,15 @@ class DetectiveBook extends Book {
 
 //Задание №2
 
-class Library {
-    construcnor (name, books) {
+class Library extends PrintEditionItem { 
+   constructor (name, releaseDate, pagesCount) {
+    super(releaseDate, pagesCount);
         this.name = name;
         this.books = [];
     }
     addBook(book) {
         if (this.state > 30) {
-            return this.books.push(book);
+        return this.books.push(book);
         }
     }
 
